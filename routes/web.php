@@ -17,3 +17,4 @@ Route::get('/', function () {
 });
 */
 Route::get('/saludar/{nombre}/{apellido?}', 'MiControlador@saludar');
+Route::get('/{nombre?}', 'NuevoControlador@principal');
